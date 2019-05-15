@@ -1,0 +1,65 @@
+/* pages/login/login.wxss */
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.h-img {
+  width: 40%;
+  height: 40vw;
+  border-radius: 50%;
+}
+.inputs {
+  width:80%;
+}
+.inputs > input {
+  line-height: 100rpx;
+  margin: 20rpx 0;
+  border-bottom: 4rpx solid #494a49;
+}
+
+.rmbs {
+  width: 80%;
+}
+.rmbpw {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 30rpx;
+}
+.rmbs>label {
+  font-size: 32rpx;
+  color: grey;
+}
+
+.login-view {
+  width: 100%;
+}
+.login {
+  width: 80%;
+  line-height: 100rpx;
+  border-radius: 50rpx;
+  background-color: green;
+  margin-top: 80rpx;
+  color: #fff;
+  font-size: 32rpx;
+}
+.emss {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 100rpx;
+}
+.emss>button {
+  background-color: #fff;
+  color: #494a49;
+  font-size: 30rpx;
+  text-align: left;
+}
+.emss>button::after {
+  border: none;
+}

@@ -1,0 +1,24 @@
+<!--pages/login/login.wxml-->
+<view class='content'>
+  <image class='h-img' src='../../assets/lighthouse.jpg'></image>
+  <view class='inputs'>
+    <input placeholder='请输入手机号码'>
+    <icon type='success'></icon>
+    </input>
+    <input placeholder='请输入密码' password='true'></input>
+  </view>
+  <view class='rmbs'>
+    <view class='rmbpw' bindtap='rememberPwd'>
+      <image src='{{img}}' style='width:40rpx;height:40rpx;'></image>
+      <label>记住密码</label>
+    </view>
+    <label>为了您的资金安全,系统不支持记住密码功能</label>
+  </view>
+  <view class='login-view'>
+    <button class='login'>登 录</button>
+  </view>
+  <view class='emss'>
+    <button>忘记密码</button>
+    <button>短信快捷登录</button>
+  </view>
+</view>
