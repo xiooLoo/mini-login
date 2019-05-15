@@ -1,9 +1,17 @@
 /* pages/login/login.wxss */
+.base {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
 .content {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+  width: 100%;
 }
 .h-img {
   width: 40%;
@@ -13,14 +21,25 @@
 .inputs {
   width:80%;
 }
-.inputs > input {
-  line-height: 100rpx;
+.inputs > view  {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 100rpx;
   margin: 20rpx 0;
-  border-bottom: 4rpx solid #494a49;
+  border-bottom: 4rpx solid #B4B4BC;
 }
+.inputs > view:nth-child(1) {
+  margin-top: 100rpx;
+}
+/* .inputs > view:nth-child(2) {
+  border-bottom: 4rpx solid #B4B4BC;
+} */
 
 .rmbs {
   width: 80%;
+  margin-top: 50rpx;
 }
 .rmbpw {
   display: flex;
@@ -28,6 +47,10 @@
   justify-content: flex-start;
   align-items: center;
   margin-bottom: 30rpx;
+}
+.rmbpw > label {
+  margin-left: 20rpx;
+  font-weight: 500;
 }
 .rmbs>label {
   font-size: 32rpx;
@@ -52,7 +75,8 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin-top: 100rpx;
+  /* margin-top: 100rpx; */
+  margin-bottom: 20rpx;
 }
 .emss>button {
   background-color: #fff;
